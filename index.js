@@ -33,3 +33,12 @@ function dec(a) {
   
   return parseInt(a.toString(), 10)
 }*/
+function makeInt(a) {
+    
+    var entero = parseInt(a,10);
+    
+  if (isNaN(entero))
+    return true;
+  
+  return entero;
+}

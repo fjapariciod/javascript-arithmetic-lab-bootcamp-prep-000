@@ -38,7 +38,7 @@ function makeInt(a) {
     var entero = parseInt(a,10);
     
   if (isNaN(entero))
-    return true;
+    return a;
   
   return entero;
 }

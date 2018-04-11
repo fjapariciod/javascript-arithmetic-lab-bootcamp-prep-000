@@ -28,9 +28,8 @@ function dec(a) {
 }
 
 function makeInt(a) {
-    
-  var entero = parseInt(a,10);
-  if (isNaN(entero))
+  var n = parseInt(a,10);
+  if (isNaN(n))
     return a;
-  return entero;
+  return n;
 }

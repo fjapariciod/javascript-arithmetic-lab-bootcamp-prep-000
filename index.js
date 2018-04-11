@@ -27,9 +27,9 @@ function dec(a) {
   return a - 1
 }
 
-function makeInt(a) {
+/*function makeInt(a) {
   if (isNaN(a))
     return true;
   
   return parseInt(a.toString(), 10)
-}
+}*/

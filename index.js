@@ -33,3 +33,7 @@ function makeInt(a) {
     return a;
   return n;
 }
+
+function preserveDecimal(n) {
+  
+}

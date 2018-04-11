@@ -27,18 +27,10 @@ function dec(a) {
   return a - 1
 }
 
-/*function makeInt(a) {
-  if (isNaN(a))
-    return true;
-  
-  return parseInt(a.toString(), 10)
-}*/
 function makeInt(a) {
     
-    var entero = parseInt(a,10);
-    
+  var entero = parseInt(a,10);
   if (isNaN(entero))
     return a;
-  
   return entero;
 }
